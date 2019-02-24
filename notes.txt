@@ -1,0 +1,7 @@
+
+
+tutorial that helped me make this: https://www.taniarascia.com/make-a-static-website-with-jekyll/
+
+
+i should use this sass boilerplate: https://taniarascia.github.io/primitive/index.html
+

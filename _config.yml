@@ -17,7 +17,7 @@ title: Your awesome title
 email: mfhodges95@gmail.com
 description: >
   A beta version of my personal website.
-baseurl: "/startjekyll" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://mfhodges.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  mfhodges

@@ -3,9 +3,39 @@ layout: default
 ---
 
 <h4>Blog</h4>
+
+<section class="list">
+
 {% for post in site.posts %}
+	<a class="post" id="" href="{{ post.url | prepend: site.baseurl }}">
+		<div class="post-thumbnail">
+			<!-- need to develop diff cat by the image -->
+			<img src="/maddy_site/img-content/{{post.icon}}.png" alt="{{ post.title }}" height="30" width="30">
+		</div>
+
+		<div class="post-title">{{ post.title }}</div>
+			<span class="post-date"><time>{{ post.date | date: "%b %-d, %Y" }}</time></span>
+		</a>
+
+
 		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 {% endfor %}
-
+</section>
+<!--
 <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+<section class="list">
+            <div class="lead" id="none-found">No results found.</div>
+
+            <a class="post" id="post-3398" href="https://www.taniarascia.com/everything-i-know-as-a-software-developer-without-a-degree/">
+        <div class="post-thumbnail">
+		<img src="https://www.taniarascia.com/wp-content/uploads/floppy-1-150x150.png" alt="Everything I Know as a Software Developer Without a Degree" height="30" width="30">
+    </div>
+
+	<div class="post-title">Everything I Know as a Software Developer Without a Degree</div>
+	<span class="post-date"><time>February 10, 2019</time></span>
+</a>
+
+-->

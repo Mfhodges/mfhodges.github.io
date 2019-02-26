@@ -10,7 +10,7 @@ layout: default
 	<a class="post" id="" href="{{ post.url | prepend: site.baseurl }}">
 		<div class="post-thumbnail">
 			<!-- need to develop diff cat by the image -->
-			<img src="/img-content/icons/{{post.icon}}.png" alt="{{ post.title }}" height="30" width="30">
+			<img src="{{ site.baseurl }}/img-content/icons/{{ post.icon }}.png" alt="{{ post.title }}" height="30" width="30">
 		</div>
 
 		<div class="post-title">{{ post.title }}</div>

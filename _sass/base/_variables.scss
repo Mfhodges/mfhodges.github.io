@@ -19,6 +19,7 @@ $desktop: $medium;
 
 /* Colors */
 
+
 $background: white;
 $primary-color: #0366EE;
 $secondary-color: #29de7d;
@@ -30,6 +31,20 @@ $link-hover-color: darken($link-color, 15%);
 $highlight: #ffeea8;
 $error: #D33C40;
 $bq-border: 16px solid #f0f0f0;
+
+
+$dark-background: black;
+$dark-primary-color: #0366EE;
+$dark-secondary-color: #29de7d;
+$dark-accent-color: #cdcdcd;
+$dark-alternate-background: #fafafa;
+$dark-alternate-color: #404040;
+$dark-link-color: $primary-color;
+$dark-link-hover-color: darken($link-color, 15%);
+$dark-highlight: #ffeea8;
+$dark-error: #D33C40;
+$dark-bq-border: 16px solid #f0f0f0;
+
 
 /* Typography */
 

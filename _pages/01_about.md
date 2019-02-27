@@ -12,3 +12,12 @@ I started this website to help me better document things I am learning and to ho
 Things in development
 * css art
 * freelance work
+
+Things I'm passionate about:
+* Digital Scholarship
+* Data Visualization
+* Fonts
+* APIs
+* My Cat
+* Internet Archiving
+* Web Science

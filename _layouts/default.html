@@ -2,7 +2,7 @@
 <html>
 {% include head.html %}
 
-<body>
+<body class="light-mode">
 
 	{% include header.html %}
 	<main id="main-content">
@@ -13,5 +13,54 @@
 	</main>
 	{% include footer.html %}
 </body>
+
+
+<!-- handles night-mode theme switch-->
+<script>
+function toggleDarkLight() {
+  var $body = $("body");
+	$body.toggleClass("dark-mode light-mode")
+
+}
+function nightMode()
+	{
+		if(localStorage.getItem('stylesheet')){
+			localStorage.clear();
+			document.getElementById('night-css')
+			.setAttribute('href','');
+		}
+		else{
+			localStorage.setItem('stylesheet','/site/css/night.css')
+			;document.getElementById('night-css')
+			.setAttribute('href',localStorage.getItem('stylesheet'));
+		}
+	}
+	document.getElementById('night-mode').addEventListener('click',nightMode)
+</script>
+
+<!-- handles Cairo font switch-->
+<script>
+function toggleFont() {
+  var $body = $("body");
+	$body.toggleClass("cairo-mode null-mode")
+
+}
+function cairoMode()
+	{
+		if(localStorage.getItem('stylesheet')){
+			localStorage.clear();
+			document.getElementById('cairo-css')
+			.setAttribute('href','');
+		}
+		else{
+			localStorage.setItem('stylesheet','/site/css/cairo.css')
+			;document.getElementById('cairo-css')
+			.setAttribute('href',localStorage.getItem('stylesheet'));
+		}
+	}
+	document.getElementById('cairo-mode').addEventListener('click',cairoMode)
+</script>
+
+
 
 </html>

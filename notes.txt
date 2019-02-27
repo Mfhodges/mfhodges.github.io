@@ -5,3 +5,5 @@ tutorial that helped me make this: https://www.taniarascia.com/make-a-static-web
 
 i should use this sass boilerplate: https://taniarascia.github.io/primitive/index.html
 
+
+index.md is the content for the main page which is declared in /_layouts

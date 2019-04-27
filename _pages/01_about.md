@@ -19,3 +19,8 @@ Things I'm passionate about:
 * My Cat
 * Internet Archiving
 * Web Science
+
+
+Books/articles I've read recently
+* [Readings in AI Ethics](https://www.scu.edu/ethics/internet-ethics-blog/readings-in-ai-ethics/)
+* ... please add more

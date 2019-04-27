@@ -16,7 +16,7 @@ layout: default
 		<div class="post-title">
 			<h3>{{ post.title }}</h3>
 		</div>
-			<small class="post-date"><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
+			<small class="post-date">(<time>{{ post.date | date: "%b %-d, %Y" }}</time>)</small>
 		</a>
 {% endfor %}
 </section>

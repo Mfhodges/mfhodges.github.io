@@ -13,8 +13,10 @@ layout: default
 			<img src="{{ site.baseurl }}/img-content/icons/{{ post.icon }}.png" alt="{{ post.title }}" height="30" width="30">
 		</div>
 
-		<div class="post-title">{{ post.title }}</div>
-			<span class="post-date"><time>{{ post.date | date: "%b %-d, %Y" }}</time></span>
+		<div class="post-title">
+			<h3>{{ post.title }}</h3>
+		</div>
+			<small class="post-date"><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
 		</a>
 {% endfor %}
 </section>

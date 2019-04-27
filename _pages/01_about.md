@@ -9,12 +9,10 @@ Hi, I'm Maddy! I'm a web developer from Philadelphia. I currently work as Course
 
 I started this website to help me better document things I am learning and to house projects I'm working on.
 
-Things in development
-* css art
-* freelance work
 
 Things I'm passionate about:
 * Digital Scholarship
+* CSS
 * Data Visualization
 * Fonts
 * APIs

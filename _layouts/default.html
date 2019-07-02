@@ -47,15 +47,15 @@ function toggleFont() {
 }
 function cairoMode()
 	{
-		if(localStorage.getItem('stylesheet')){
+		if(localStorage.getItem('stylesheet1')){
 			localStorage.clear();
 			document.getElementById('cairo-css')
 			.setAttribute('href','');
 		}
 		else{
-			localStorage.setItem('stylesheet','/site/css/cairo.css')
+			localStorage.setItem('stylesheet1','/site/css/cairo.css')
 			;document.getElementById('cairo-css')
-			.setAttribute('href',localStorage.getItem('stylesheet'));
+			.setAttribute('href',localStorage.getItem('stylesheet1'));
 		}
 	}
 	document.getElementById('cairo-mode').addEventListener('click',cairoMode)

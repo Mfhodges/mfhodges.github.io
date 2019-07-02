@@ -20,7 +20,11 @@ Things I'm passionate about:
 * Internet Archiving
 * Web Science
 
+Cool Projects I've recently seen:  
+I have been so impressed by this project: [https://anthology.rhizome.org/love](ttps://anthology.rhizome.org/love)
 
 Books/articles I've read recently
 * [Readings in AI Ethics](https://www.scu.edu/ethics/internet-ethics-blog/readings-in-ai-ethics/)
+* [The Death Algorithm and Other Digital Dilemmas](https://mitpress.mit.edu/books/death-algorithm-and-other-digital-dilemmas)
+* [Accessible America A History of Disability and Design](https://www.goodreads.com/en/book/show/39971108-accessible-america)
 * ... please add more

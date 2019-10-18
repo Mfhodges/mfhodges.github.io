@@ -12,6 +12,8 @@
 	<link rel="stylesheet" id="FontAwesome-css" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" type="text/css" media="all">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js"></script>
 <!-- to link or not link night mode css -->
 <script>(function(){
 	var link = document.createElement('link');
@@ -32,7 +34,7 @@
 		link.setAttribute('id', 'cairo-css');
 		link.setAttribute('rel', 'stylesheet');
 		document.head.appendChild(link);
-		var style=localStorage.getItem('stylesheet');
+		var style=localStorage.getItem('stylesheet1');
 		console.log("style",style);
 		if(style) {
 			document.getElementById('cairo-css').setAttribute('href',style);

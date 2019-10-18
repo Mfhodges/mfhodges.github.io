@@ -158,6 +158,40 @@ pre {
     }
 }
 
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background-color: #000000;
+  border-radius: 3px;
+}
+
+p code {
+  background-color: #e5eff5;
+  padding: 1px 3px;
+  border-radius: 3px;
+  font-size: .95em;
+  color: #000000;
+}
+
+pre {
+  background: #000000;
+  margin-top: -10px;
+}
+pre code {
+  font-size: 13px;
+  padding: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+
+
+
+
 // Keyboard input
 kbd {
     background-color: #f7f7f7;

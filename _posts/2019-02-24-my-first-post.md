@@ -7,4 +7,10 @@ icon: floppydisk
 ---
 
 
-content
+
+### Here is some text
+
+
+```
+$ bundle exec jekyll serve
+```

@@ -12,6 +12,7 @@ Hi, I'm Maddy! I'm a web developer from Philadelphia. I currently work as Course
 I started this website to help me better document things I am learning and to house lil' snippets of things I think are neat.
 
 
+if you *must* here is my [resume](/img-content/mhodges_resume_2019.pdf)
 
 #### Things I'm passionate about:
 * APIs

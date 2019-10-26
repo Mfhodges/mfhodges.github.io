@@ -12,6 +12,8 @@ icon: floppydisk
 {:toc}
 -->
 
+## 🔧 This article is still under development 🔧
+
 In this tutorial you will gain an understanding of how static site generators like Jekyll function so you can more confidentially understand Jekyll tutorials and edit/build your own static site.
 
 

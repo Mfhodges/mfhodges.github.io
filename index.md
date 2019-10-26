@@ -4,7 +4,7 @@ layout: default
 
   <h2>Welcome</h2>
 
-  Main content goes here!
+  This site was built using Jekyll. Hosted using GitHub [here](https://github.com/Mfhodges/site). Cloudflare manages SSL to enforce HTTPS. For more information about me please see my [about page](/about)
 
 <style>
   #content {
@@ -43,7 +43,7 @@ text-shadow: -1px -1px 0 rgba(255,255,255,.5),
     <li class="close"></li><li class="min"></li><li class="max"></li>
   </ul>
   <div class="window" style="undefined">
-    <div id="content"> 
+    <div id="content">
 
       <h1> Howdy!!</h1>
 </div>

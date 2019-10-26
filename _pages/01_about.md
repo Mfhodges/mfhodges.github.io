@@ -5,20 +5,20 @@ permalink: /about/
 ---
 
 
-<img alt="" width="220" height="220" align="right" style="margin-top:-40px;" src="https://avatars1.githubusercontent.com/u/11843680?s=460&amp;v=4">
+<img alt="" width="240" height="240" align="right" style="margin-top:-40px;margin-left:10px;" src="https://avatars1.githubusercontent.com/u/11843680?s=460&amp;v=4">
 
-Hi, I'm Maddy! I'm a web developer from Philadelphia. I currently work as Courseware Developer for the University of Pennsylvania in the Teaching, Research and Learning Services department within the Van Pelt Library.
+Hi, I'm Maddy! I'm a web developer from Philadelphia. I currently work as Courseware Developer for the University of Pennsylvania in the Teaching, Research and Learning Services department within the Van Pelt Library. I architect and manage applications that manage the University's LMS.
 
 I started this website to help me better document things I am learning and to house lil' snippets of things I think are neat.
 
 
 
 #### Things I'm passionate about:
-* Digital Scholarship
+* APIs
 * CSS
+* Digitial Scholarhip
 * Data Visualization
 * Fonts
-* APIs
 * My Cat
 * Internet Archiving
 * Web Science

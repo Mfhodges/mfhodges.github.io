@@ -32,7 +32,7 @@ const Layout = ({ children,heading }) => {
         body {
           padding: 0;
           margin: 0;
-          font-size: 1.0rem;
+          font-size: 1.1rem;
           letter-spacing: 0.02rem;
           font-variant-ligatures: none;
           text-rendering: optimizelegibility;
@@ -69,7 +69,12 @@ const Layout = ({ children,heading }) => {
       <meta name="description" content={description}/>
     </Helmet>
     <Header heading={heading} />
-    <main><Inner>{children}</Inner></main>
+    <main css={css`
+      padding-bottom:30px;
+    `}
+    >
+      <Inner>{children}</Inner>
+    </main>
     </>
 );}
 

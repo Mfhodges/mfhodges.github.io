@@ -35,7 +35,7 @@ const posts = usePosts();
 return (
 <>
 <Layout heading={< Heading />}>
-<h2> read my posts </h2>
+<h2>Read my posts </h2>
 {posts.map( post => (
     <PostPreview key={post.slug} post={post} />
 ))}

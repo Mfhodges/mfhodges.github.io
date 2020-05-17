@@ -34,7 +34,7 @@ const PostPreveiw = ({ post }) => (
     <div>
     <h3><Link to={post.slug}>{post.title}</Link></h3>
     <p>{post.excerpt}</p>
-    <ReadLink to={post.slug}>read this post</ReadLink>
+    <ReadLink to={post.slug}>read this post &rarr;</ReadLink>
     </div>
 </article>
 

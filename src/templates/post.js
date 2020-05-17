@@ -23,13 +23,18 @@ query($slug: String!) {
 // data is PageContext
 const PostTemplate = ({ data: { mdx: post } }) => (
     <Layout>
-        <h1>{post.frontmatter.title}</h1>
+        <h1 css={css`
+          margin-bottom:0;
+        `}
+        >
+          {post.frontmatter.title}</h1>
         <p 
             css={css`
             font-size: 0.75rem;
+            margin-top:0;
             `}
         >
-             posted by ({post.frontmatter.author})</p>
+             posted by {post.frontmatter.author}</p>
         <MDXRenderer>{post.body}</MDXRenderer>
         <ReadLink to="/"> &larr; back to all posts</ReadLink>
 

@@ -21,6 +21,7 @@ export default () => (
       Please note that I may not wave back because I am probably very far away
       and not looking in your direction.
     </p>
+    <Link to="/">&larr; Back to home</Link>
 
   </Layout>
 );

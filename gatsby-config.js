@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata:{
-        title:'FEM Gatsby Workshop',
-        description:'the site we built together'
+        title:'Maddy Hodges\' website',
+        description:'Maddy Hodges\s portfolio and blog'
     },
     plugins: ['gatsby-plugin-emotion',
     'gatsby-plugin-react-helmet',

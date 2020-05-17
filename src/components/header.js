@@ -45,7 +45,14 @@ const Wrapper = styled('header')`
       font-weight: 700;
       font-size: 2.0rem;
     }
+
+     a {
+      text-decoration-line: none;
+
+    }
   }
+
+  
 
   .nav {
     text-align: right;

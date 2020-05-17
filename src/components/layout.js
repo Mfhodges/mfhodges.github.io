@@ -61,6 +61,7 @@ const Layout = ({ children,heading }) => {
         strong {
           color: #212129;
         }
+
       `}
     />
     <Helmet>

@@ -59,6 +59,19 @@ const Wrapper = styled('header')`
     }
 
   }
+
+  @media screen and (max-width: 720px) {
+    .heading {
+      h1, h2 {
+
+        font-size: 2.5rem;
+      }
+  
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
 `;
 
 

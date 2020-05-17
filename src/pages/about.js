@@ -9,7 +9,7 @@ export default () => (
   <Layout heading="About">
    
     <p>
-      Hi, I’m Maddy! I’m a web developer from Philadelphia. I currently work as
+      Hi, I’m Maddy! I’m a Software Engineer from Philadelphia. I currently work as
       Application Developer for the University of Pennsylvania in the Teaching,
       Research and Learning Services department within the Van Pelt Library. I
       architect and manage applications that manage the University’s LMS Canvas.

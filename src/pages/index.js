@@ -5,6 +5,7 @@ import usePosts from '../hooks/use-posts';
 import PostPreview from '../components/post-preview';
 import FadeInText from '../components/fadeInText';
 import Insta from '../components/insta';
+import Goodreads from '../components/goodreads';
 
 
 const Heading= () => {
@@ -39,7 +40,7 @@ return (
 {posts.map( post => (
     <PostPreview key={post.slug} post={post} />
 ))}
-<Insta />
+<Goodreads />
 </Layout>
 </>
 );}

@@ -32,7 +32,6 @@ const Goodreads = () => {
     }
     const errorImg = 'https://i.pinimg.com/originals/06/f3/b1/06f3b1b134ec7443eff071eb6f8f180d.jpg'
 
-    console.log(JSON.stringify(Books));
     return (
       <>
         <h2>My Recent Reads 📚</h2>

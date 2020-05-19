@@ -54,6 +54,13 @@ module.exports = {
           goodReadsUserId: "107783413",
           userShelf: "read" //optional
         }
-      }
+      },
+      {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-165762946-1",
+      },
+    }
+      
     ]
 };

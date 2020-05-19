@@ -22,7 +22,7 @@ const useGoodreads = () => {
 
     return data.allGoodreadsShelf.edges[0].node.reviews.map( reviews => ({
         ...reviews.book,
-        image: `http://covers.openlibrary.org/b/isbn/${reviews.book.isbn}-M.jpg?default=false`
+        image: `https://covers.openlibrary.org/b/isbn/${reviews.book.isbn}-M.jpg?default=false`
     }))
     
 

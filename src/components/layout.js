@@ -32,7 +32,7 @@ const Layout = ({ children,heading }) => {
         body {
           padding: 0;
           margin: 0;
-          font-size: 1.1rem;
+          font-size: 1.0rem;
           letter-spacing: 0.02rem;
           font-variant-ligatures: none;
           text-rendering: optimizelegibility;

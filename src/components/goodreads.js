@@ -27,10 +27,6 @@ const GoodreadsImg = ({Image}) => {
 const Goodreads = () => {
     // where does the data come from
     const Books = useGoodreads();
-    function addDefaultSrc(ev) {
-        ev.target.src = 'https://i.pinimg.com/originals/06/f3/b1/06f3b1b134ec7443eff071eb6f8f180d.jpg'
-    }
-    const errorImg = 'https://i.pinimg.com/originals/06/f3/b1/06f3b1b134ec7443eff071eb6f8f180d.jpg'
 
     return (
       <>

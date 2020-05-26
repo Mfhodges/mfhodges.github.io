@@ -4,7 +4,6 @@ import {css} from '@emotion/core';
 import useGoodreads from '../hooks/use-goodreads';
 
 
-
 const GoodreadsImg = ({Image}) => {
     const errorImg = '/book_not_found.jpg';
 
@@ -16,6 +15,7 @@ const GoodreadsImg = ({Image}) => {
                     width:95%;
                     padding-left:2.5%;
                 `}
+                on
                 onError={() => setImg(errorImg)}
                 src={img}
               />

@@ -1,18 +1,120 @@
 ---
 title: Accessibility Fundamentals Week 1
 slug: accessibility-fundamentals-wk1
-author: Maddy 
+author: Maddy
 image: ./images/raoulie.jpg
 ---
 
 
-
-I am studying for the [Web Accessibility Specialist](https://www.accessibilityassociation.org/wascertification) 
+I am studying for the [Web Accessibility Specialist](https://www.accessibilityassociation.org/wascertification)
 certification by the International Association of Accessibility Professionals (IAAP).
-
 Every week I will be studying independently and then reveiwing the content for the week with some of my colleagues.
-
-I thought it would be easiest if I use this blog to document this knowledge.
-
 This week we are reviewing 'Introductory Materials' to web accessibilty which consists of disabilities, guidelines, and Laws.
 
+
+## Disabilities
+### Blind - Uses a screen reader to listen to web pages
+**Design Considerations**
+1. All Content must be presented in text or via a text equivalent
+2. All functionality must be available using only the keyboard
+3. Content must use markup w. good structure and semantics
+4. All custom controls (e.g. expand/collaspe divs, dialogs, volume controls) must have the correct name/label, role and value
+5. Users must receive immediate feedback after all actions
+6. videos require audio descriptions
+7. Mobile: all features require a click action. Custom swipe actions on web pages will not work with screen reader turned on
+
+### Low Vision - Uses Screen Magnification, screen readers and, color customization
+**Design Considerations**
+1. Pinch-to-zoom feature must not be disabled.
+2. All text must pass contrast guidelines against the background
+3. Links, buttons, and controls must have a visible `:focus` and `:hover` state.
+4. UI should provide a clear visual distinction between content (text) and controls(buttons,links,etc)
+
+### Color Blind - There aren't many assistive technologies. Enchroma are glasses that help compensate.
+**Design Considerations**
+1. *All information must be understandable without needing to distinguish between colors*
+
+### Deaf - Most of the Web is accessible -- the concern is accessibility of audio
+**Design Considerations**
+1. All videos must have captions
+2. All audio-only content must have transcripts
+
+### DeafBlind - Uses a braille output device and screen reader
+**Design Considerations**
+1. All considerations of blindness apply
+2. All considerations of deafness apply
+3. Transcript must be provided for audio and video content (subtitles will not suffice)
+
+### Motor Disabilities - Keyboard w. mouth stick, one handed keyboard, expanded keyboard, speech recongnition
+examples: a temporary inability to use a single hand due to an injury, to diiffculty u both hands, all the way to having little to no motor control of your limbs.  
+**Design Considerations**
+1. **All functionality must be available using only the keyboard.**
+2. Links, buttons, and controls must have a visible `:focus` and should have visible `:hover`
+3. Warn users before time runs out on session time-outs and give an option to extend (recommended min response time is 2 min).
+
+### Speech Disabilities - Use AAC (Augmentative and Alternative Communication)
+**Design Considerations**
+1. Don't depend on voice input
+
+
+### Cognitive Disabilities *(MOST COMMON TYPE OF DISABILITY)* - no tech mediation 
+**Design Considerations**
+1. For users with lower comprehension
+    * Simplify interface 
+    * Simplify content
+    * Keep videos and audio short
+    * limit number of choices
+    * Provide help features
+    * Design for ease of use
+    * Test the usuability with actual users
+2. For users with memory loss
+    * Retain information across screens, and within a path
+    * Provide help features
+3. For users with distractibility
+    * Reduce or eliminate distractions
+
+### Reading Disabilities(Cognitive Disability) - some use different browser fonts
+**Design Considerations**
+1. Supplement text with illustrations, videos, audio
+2. avoid the highest level of contrast for text against background ( but stay within constrast range for low vision)
+
+### Seizures - no tech mediation
+**Design Considerations**
+1. Don't include videos, animations, or transitions with flashing light sequences of 3 times or more per second.
+
+### Multiple Disabilities
+**Design Considerations**
+1. Consider all of the above disabilities in various combinations. 
+
+## Guidelines
+(WCAG 2.1 Guidelines)[https://www.w3.org/TR/WCAG21/] published in 2018 by (W3C)[http://www.w3.org/] are regarded as most authoritative source of accessibility guidelines in the world. 
+Previous version 2.0 was published in 2018 and accepted as ISO (International Standards Org) in 2012.
+
+### Levels : A, AA, AAA
+Levels correspond to conformance to guidelines ( A == Lowest, AAA== Highest). Many companies strive for AA but, AAA is required for at least some people with disabilites.
+
+### The 4 Main Principles ( & The 13 Guidelines)
+1. **Perceivable** - Info and UI components must be presented to users in ways they can perceive.  
+    1.1 Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, speech, symbols or simpler language.   
+    1.2 Provide alternatives for time-based media.   
+    1.3 Create content that can be presented in different ways (for example simpler layout) without losing information or structure.   
+    1.4 Make it easier for users to see and hear content including separating foreground from background.  
+2. **Operable** - UI components and navigation must be operable ( by keyboard or mouse )  
+    2.1 Make all functionality available from a keyboard.   
+    2.2 Provide users enough time to read and use content.   
+    2.3 Do not design content in a way that is known to cause seizures.   
+    2.4 Provide ways to help users navigate, ifnd content, and determine where they are.   
+    2.5 Make it easier for users to operate functionality through various inputs beyond keyboard.  
+3. **Understandable** - Info and operation of UI must be understandable  
+    3.1 Make text content readable and understandable.   
+    3.2 Make Web pages appear and operate in predictable ways.   
+    3.3 Help users avoid and correct mistakes.  
+4. **Robust** - Content must be robust enought that it can be interpreted reliably by a wide variety of user agents, including assistive technologies  
+    4.1 Maximize compatibility with current and future user agents, including assistive technologies.  
+
+### Success Criteria and Conformance Levels
+The success criteria are the rules, or checklist items, upon which the guidelines are based. The name suggests that if you meet the criteria, y successfully met the guideline, and that portion of the web content will be accessible to people with disabilities.  
+For more see: https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels
+
+### "Sufficient Techniques" and "Advisory Techniques"
+Some of the Criteria are self-explanatory but for those more ambiguous Criteria, there 

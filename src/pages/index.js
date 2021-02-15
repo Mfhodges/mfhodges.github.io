@@ -4,14 +4,12 @@ import Layout from '../components/layout';
 import usePosts from '../hooks/use-posts';
 import PostPreview from '../components/post-preview';
 import FadeInText from '../components/fadeInText';
-import Insta from '../components/insta';
-import Goodreads from '../components/goodreads';
+//import Insta from '../components/insta';
+//import Goodreads from '../components/goodreads';
 
 
 const Heading= () => {
-    const {title} = {title:"Maddy Hodges"};
-    //const { jobPosition: { title: jobTitle, company, url } } = 
-    
+    const {title} = {title:"Maddy Hodges"};    
     return (
       <>
         <FadeInText
@@ -22,7 +20,6 @@ const Heading= () => {
           {title}
         </FadeInText>
         <h2>Software Engineer</h2>
-        {/*<h2>{jobTitle} at <ExternalLink href={url} >{company}</ExternalLink></h2>*/}
       </>
     )
   }
@@ -34,13 +31,11 @@ export default () => {
 const posts = usePosts();
 
 return (
-<>
 <Layout heading={< Heading />}>
 <h2>Read my posts</h2>
 {posts.map( post => (
     <PostPreview key={post.slug} post={post} />
 ))}
-<Goodreads />
+{/*<Goodreads />*/}
 </Layout>
-</>
 );}

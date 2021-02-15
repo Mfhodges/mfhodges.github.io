@@ -32,12 +32,6 @@ module.exports = {
         }
     },
     {
-        resolve: 'gatsby-source-instagram',
-        options:{
-            username:'gatsbyjs'
-        },
-    },
-    {
         resolve: 'gatsby-plugin-webpack-bundle-analyzer',
         options: {
             production: true,
@@ -47,14 +41,6 @@ module.exports = {
         
         }
     },
-    {
-        resolve: "gatsby-source-goodreads",
-        options: {
-          developerKey: "x2ZpdLi0vGTKVbGDsEJzw",
-          goodReadsUserId: "107783413",
-          userShelf: "read" //optional
-        }
-      },
       {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

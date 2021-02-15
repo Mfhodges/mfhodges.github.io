@@ -1,9 +1,6 @@
 import React from 'react';
-
 import styled from '@emotion/styled';
-import {css} from '@emotion/core';
 import {Link } from 'gatsby';
-import FadeInText from './fadeInText';
 
 /* Styled Component */
 const NavLink = styled(Link)`
@@ -133,22 +130,3 @@ const Header = ({ heading }) => (
 );
 
 export default Header;
-
-/**
- * 
- *  <nav
-      css={css`
-        margin-top: 0;
-      `}
-    >
-      <NavLink to="/" activeClassName="current-page">
-        Home
-      </NavLink>
-      <NavLink to="/about" activeClassName="current-page">
-        About
-      </NavLink>
-      <NavLink to="/contact" activeClassName="current-page">
-        Contact
-      </NavLink>
-    </nav>
- */

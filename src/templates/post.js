@@ -1,5 +1,5 @@
 import React from 'react';
-import {grapql, graphql} from 'gatsby';
+import {graphql} from 'gatsby';
 import {css} from '@emotion/core';
 import Layout from '../components/layout';
 import ReadLink from '../components/read-link';
